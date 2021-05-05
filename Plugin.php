@@ -20,13 +20,13 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            "name" => "josephcrowell.sitemap-pretty::lang.plugin.name",
+            "name" => "josephcrowell.sitemappretty::lang.plugin.name",
             "description" =>
-                "josephcrowell.sitemap-pretty::lang.plugin.description",
+                "josephcrowell.sitemappretty::lang.plugin.description",
             "author" => "Joseph Crowell",
             "icon" => "icon-sitemap",
             "homepage" =>
-                "https://github.com/josephcrowell/wn-sitemap-pretty-plugin",
+                "https://github.com/josephcrowell/wn-sitemappretty-plugin",
             "replaces" => "Xeor.Sitemap",
         ];
     }

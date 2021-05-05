@@ -9,8 +9,8 @@ project.
 
 ## Reporting a Bug
 
-The `wn-sitemap-pretty-plugin` team and community take all security bugs in `wn-sitemap-pretty-plugin` seriously.
-Thank you for improving the security of `wn-sitemap-pretty-plugin`. We appreciate your efforts and
+The `wn-sitemappretty-plugin` team and community take all security bugs in `wn-sitemappretty-plugin` seriously.
+Thank you for improving the security of `wn-sitemappretty-plugin`. We appreciate your efforts and
 responsible disclosure and will make every effort to acknowledge your
 contributions.
 

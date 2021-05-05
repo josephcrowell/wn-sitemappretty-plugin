@@ -1,10 +1,10 @@
 # Sitemap for WinterCMS
 
 <p align="center">
-  <a href="https://travis-ci.org/josephcrowell/wn-sitemap-pretty-plugin">
-    <img src="https://travis-ci.org/josephcrowell/wn-sitemap-pretty-plugin.svg?branch=master">
+  <a href="https://travis-ci.org/josephcrowell/wn-sitemappretty-plugin">
+    <img src="https://travis-ci.org/josephcrowell/wn-sitemappretty-plugin.svg?branch=master">
   </a>
-  <a href="https://wintercms.com/plugin/josephcrowell-sitemap-pretty">
+  <a href="https://wintercms.com/plugin/josephcrowell-sitemappretty">
     <img src="https://img.shields.io/badge/Winter CMS-Plugin-%23EE7203.svg">
   </a>
   <a href="https://www.patreon.com/josephcrowell">
@@ -26,4 +26,4 @@ The **Sitemap Pretty plugin** allows you to to prettify a sitemap.xml file gener
 ## Troubleshooting
 
 If you like living on the edge, please report any bugs you find on the
-[issues](https://github.com/josephcrowell/wn-sitemap-pretty-plugin/issues) page.
+[issues](https://github.com/josephcrowell/wn-sitemappretty-plugin/issues) page.
