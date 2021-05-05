@@ -33,10 +33,10 @@
     <html>
       <head>
         <title>Sitemap file</title>
-        <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/jquery.js"></script>
-        <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/jquery.tablesorter.min.js"></script>
-        <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/sitemap.xsl.js"></script>
-        <link href="/plugins/josephcrowell/sitemappretty/assets/css/sitemap.xsl.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="/plugins/josephcrowell/sitemap-pretty/assets/js/jquery.js"></script>
+        <script type="text/javascript" src="/plugins/josephcrowell/sitemap-pretty/assets/js/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="/plugins/josephcrowell/sitemap-pretty/assets/js/sitemap.xsl.js"></script>
+        <link href="/plugins/josephcrowell/sitemap-pretty/assets/css/sitemap.xsl.css" type="text/css" rel="stylesheet"/>
       </head>
 
       <!-- Store in $fileType if we are in a sitemap or in a siteindex -->

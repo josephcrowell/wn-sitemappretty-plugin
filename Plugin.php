@@ -20,9 +20,9 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            "name" => "josephcrowell.sitemappretty::lang.plugin.name",
+            "name" => "josephcrowell.sitemap-pretty::lang.plugin.name",
             "description" =>
-                "josephcrowell.sitemappretty::lang.plugin.description",
+                "josephcrowell.sitemap-pretty::lang.plugin.description",
             "author" => "Joseph Crowell",
             "icon" => "icon-sitemap",
             "homepage" =>

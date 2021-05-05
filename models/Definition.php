@@ -14,7 +14,7 @@ class Definition extends WinterDefinition
         $xml->loadXML($this->generateSitemap());
         $xslt = $xml->createProcessingInstruction(
             "xml-stylesheet",
-            'type="text/xsl" href="/plugins/josephcrowell/sitemappretty/assets/xsl/sitemap.xsl"'
+            'type="text/xsl" href="/plugins/josephcrowell/sitemap-pretty/assets/xsl/sitemap.xsl"'
         );
         $xml->insertBefore($xslt, $xml->firstChild);
         return $xml->saveXML();

@@ -12,7 +12,7 @@ Route::get("sitemap.xml", function () {
         $definition = Definition::where("theme", $themeActive)->firstOrFail();
     } catch (ModelNotFound $e) {
         Log::info(
-            trans("josephcrowell.sitemappretty::lang.definition.not_found")
+            trans("josephcrowell.sitemap-pretty::lang.definition.not_found")
         );
 
         return App::make(Controller::class)
