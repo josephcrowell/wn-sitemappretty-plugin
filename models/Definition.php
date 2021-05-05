@@ -1,19 +1,21 @@
-<?php namespace Xeor\Sitemap\Models;
+<?php namespace JosephCrowell\SitemapPretty\Models;
 
 use DOMDocument;
-use RainLab\Sitemap\Models\Definition as RainLabDefinition;
+use Winter\Sitemap\Models\Definition as WinterDefinition;
 
 /**
  * Definition Model
  */
-class Definition extends RainLabDefinition
+class Definition extends WinterDefinition
 {
-
     public function generatePrettySitemap()
     {
-        $xml = new DOMDocument;
+        $xml = new DOMDocument();
         $xml->loadXML($this->generateSitemap());
-        $xslt = $xml->createProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="/plugins/xeor/sitemap/assets/xsl/sitemap.xsl"');
+        $xslt = $xml->createProcessingInstruction(
+            "xml-stylesheet",
+            'type="text/xsl" href="/plugins/josephcrowell/sitemappretty/assets/xsl/sitemap.xsl"'
+        );
         $xml->insertBefore($xslt, $xml->firstChild);
         return $xml->saveXML();
     }

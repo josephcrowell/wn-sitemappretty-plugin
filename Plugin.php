@@ -1,4 +1,4 @@
-<?php namespace Xeor\Sitemap;
+<?php namespace JosephCrowell\SitemapPretty;
 
 use System\Classes\PluginBase;
 
@@ -7,11 +7,10 @@ use System\Classes\PluginBase;
  */
 class Plugin extends PluginBase
 {
-
     /**
      * @var array Plugin dependencies
      */
-    public $require = ['RainLab.Sitemap'];
+    public $require = ["Winter.Sitemap"];
 
     /**
      * Returns information about this plugin.
@@ -21,11 +20,14 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'xeor.sitemap::lang.plugin.name',
-            'description' => 'xeor.sitemap::lang.plugin.description',
-            'author' => 'Sozonov Alexey',
-            'icon' => 'icon-sitemap',
-            'homepage'    => 'https://github.com/sozonovalexey/oc-sitemap-plugin'
+            "name" => "josephcrowell.sitemappretty::lang.plugin.name",
+            "description" =>
+                "josephcrowell.sitemappretty::lang.plugin.description",
+            "author" => "Joseph Crowell",
+            "icon" => "icon-sitemap",
+            "homepage" =>
+                "https://github.com/josephcrowell/wn-sitemap-pretty-plugin",
+            "replaces" => "Xeor.Sitemap",
         ];
     }
 }
