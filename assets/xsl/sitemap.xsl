@@ -33,8 +33,7 @@
     <html>
       <head>
         <title>Sitemap file</title>
-        <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/jquery.js"></script>
-        <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/tablesort.min.js"></script>
         <script type="text/javascript" src="/plugins/josephcrowell/sitemappretty/assets/js/sitemap.xsl.js"></script>
         <link href="/plugins/josephcrowell/sitemappretty/assets/css/sitemap.xsl.css" type="text/css" rel="stylesheet"/>
       </head>
@@ -70,11 +69,11 @@
     <div id="information">
       <p>Number of sitemaps in this index: <xsl:value-of select="count(sitemap:sitemapindex/sitemap:sitemap)"></xsl:value-of></p>
     </div>
-    <table class="tablesorter siteindex">
+    <table id="sorted-table" class="tablesorter siteindex">
       <thead>
         <tr>
-          <th>Sitemap URL</th>
-          <th>Last modification date</th>
+          <th role="columnheader">Sitemap URL</th>
+          <th role="columnheader">Last modification date</th>
         </tr>
       </thead>
       <tbody>
@@ -90,13 +89,13 @@
     <div id="information">
       <p>Number of URLs in this sitemap: <xsl:value-of select="count(sitemap:urlset/sitemap:url)"></xsl:value-of></p>
     </div>
-    <table class="tablesorter sitemap">
+    <table id="sorted-table" class="tablesorter sitemap">
       <thead>
         <tr>
-          <th>URL location</th>
-          <th>Last modification date</th>
-          <th>Change frequency</th>
-          <th>Priority</th>
+          <th role="columnheader">URL location</th>
+          <th role="columnheader">Last modification date</th>
+          <th role="columnheader" data-sort-method='change-frequency'>Change frequency</th>
+          <th role="columnheader">Priority</th>
         </tr>
       </thead>
       <tbody>
