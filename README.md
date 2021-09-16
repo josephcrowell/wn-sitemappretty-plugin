@@ -1,4 +1,4 @@
-# Sitemap for WinterCMS
+# Sitemap Prettifier for WinterCMS
 
 <p align="center">
   <a href="https://travis-ci.org/josephcrowell/wn-sitemappretty-plugin">
