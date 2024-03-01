@@ -5,12 +5,16 @@ use Cms\Classes\Controller;
 use JosephCrowell\SitemapPretty\Models\Definition;
 use Illuminate\Database\Eloquent\ModelNotFoundException as ModelNotFound;
 
-Route::get("sitemap.xml", function () {
+Route::get("sitemap.xml", function ()
+{
     $themeActive = Theme::getActiveTheme()->getDirName();
 
-    try {
+    try
+    {
         $definition = Definition::where("theme", $themeActive)->firstOrFail();
-    } catch (ModelNotFound $e) {
+    }
+    catch (ModelNotFound $e)
+    {
         Log::info(
             trans("josephcrowell.sitemappretty::lang.definition.not_found")
         );
