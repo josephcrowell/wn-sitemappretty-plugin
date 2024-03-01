@@ -1,4 +1,5 @@
-<?php namespace JosephCrowell\SitemapPretty\Models;
+<?php
+namespace JosephCrowell\SitemapPretty\Models;
 
 use DOMDocument;
 use Winter\Sitemap\Models\Definition as WinterDefinition;

@@ -1,4 +1,5 @@
-<?php namespace JosephCrowell\SitemapPretty;
+<?php
+namespace JosephCrowell\SitemapPretty;
 
 use System\Classes\PluginBase;
 
